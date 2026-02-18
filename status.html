@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Status do servidor PancakesMC - Verifique se o servidor está online">
+<title>Status - PancakesMC</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<nav>
+<h2>PancakesMC</h2>
+<div>
+<a href="index.html">Início</a>
+<a href="status.html">Status</a>
+<a href="index.html#servidores">Servidores</a>
+<a href="alefftdl.html">Alefftdl</a>
+<a href="index.html#discord">Discord</a>
+</div>
+</nav>
+
+<section class="status-page">
+<h1>Status do Servidor</h1>
+<p>Verifique o status em tempo real do servidor PancakesMC</p>
+
+<div class="status-box">
+<div style="margin: 20px 0;">
+<p><b>Status:</b> <span id="server-status">Carregando...</span></p>
+<p><b>Jogadores:</b> <span id="players">--</span></p>
+<p><b>Versão:</b> <span id="version">--</span></p>
+</div>
+<div id="player-list"></div>
+</div>
+
+<div style="margin-top: 50px;">
+<button onclick="copiarIP(this)" class="btn btn-primary">📋 Copiar IP do Servidor</button>
+<a href="index.html#discord" class="btn btn-discord" style="margin-left: 15px;">
+<i class="fab fa-discord"></i> Entrar no Discord
+</a>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 PancakesMC • pancakesmc.fun</p>
+<p>Desenvolvido com ❤️ para a comunidade Minecraft</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
