@@ -1,4 +1,4 @@
-const SERVER_IP = "pancakesmc.fun";
+const SERVER_IP = "jogar.pancakesmc.fun";
 
 /* STATUS (só executa se existir os elementos) */
 if(document.getElementById("server-status")){
