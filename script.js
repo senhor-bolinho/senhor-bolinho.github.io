@@ -33,7 +33,7 @@ if(document.getElementById("announcement")){
     "🔥 Bem-vindo ao PancakesMC!",
     "💬 Entre no nosso Discord para novidades!",
     "🎉 Eventos exclusivos com alefftdl!",
-    "🌟 Jogue agora em pancakesmc.fun!",
+    "🌟 Jogue agora em jogar.pancakesmc.fun!",
     "🏗️ Survival com economia equilibrada!",
     "🎮 Participe dos eventos ao vivo!",
     "⭐ Siga Alefftdl no YouTube e TikTok!"
